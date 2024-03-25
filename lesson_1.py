@@ -43,12 +43,11 @@ mersedes = Car("mers", "White", 320)
 mersedes.info()
 mersedes.fill(10)
 mersedes.start()
-mersedes.drive(200)
+mersedes.drive(100)
 mersedes.stop()
 
 # bmw = Car("bmw", "Pink")
 # print(bmw.model, bmw.color)
-# bmw.info()
 
 
 
@@ -57,3 +56,5 @@ first_super_car = "Car"
 
 
 FirstSuperCar = "Car"
+
+print("Helloo world")

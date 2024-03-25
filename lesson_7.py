@@ -1,4 +1,5 @@
 """
+Клманды для связки GitHub и VScode
 
 git --version
 
@@ -10,6 +11,7 @@ git config --global user.email "YOUR EMAIL ON GITHUB"
 
 
 """
+Первые команды для пуша ( новый репозиторий )
 
 git init
 
@@ -21,11 +23,31 @@ git commit -m "First Commit"
 
 git remote add origin <HTTPS link.git>
 
-- Remote тоже пишется единожды когда соединяем проект с репозиторем
+git branch -M main
 
-git branch
+git push -u origin main
 
-git push -u origin master
 
+"""
+
+
+
+"""
+Командя для существуещего репозитория
+
+git add .
+
+git commit -m "First Commit"
+
+git push
+
+"""
+
+
+"""
+
+git clone 
+
+git pull
 
 """
